@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+
+body{
+    font-family: 'Roboto Mono', monospace;
+}
+
+.about{
+    font-size: 18px;
+    font-weight: 300;
+    margin-bottom: 20px;
+    color: gray;
+}
+
+.avatar{
+    width: 210px;
+    height: 210px;
+    object-fit: cover;
+    margin-bottom: 40px;
+    border-radius: 50%;
+    box-shadow: 5px 5px;
+}
+
+.button{
+    background-color: black;
+    text-decoration: none;
+    color: white;
+    padding: 10px 24px;
+}
+
+.container{
+    background-color: lightgray;
+    min-height: 100vh;
+    padding: 128px;
+    background-image: linear-gradient(to right, rgba(255,255,255, 1),rgba(255,255,255, 0.7)), url('https://images.unsplash.com/photo-1501504905252-473c47e087f8?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right;
+    /* if it a height it will be 100% of the viewport height */
+}
+
+.contact{
+    margin-bottom: 48px;
+}
+
+.content{
+    max-width: 500px;
+}
+
+.contact-icon{
+    margin-right: 12px;
+    width: 16px;
+}
+
+.contact-item{
+    margin-bottom: 4px;
+}
+
+.job{
+    font-size: 16px;
+    text-transform: uppercase;
+    margin-bottom: 8px;
+}
+
+.name{
+    font-size: 40px;
+    text-transform: uppercase;
+    margin-bottom: 8px;
+}
+
+
+@media  screen and (max-width: 768px) {
+    .container{
+        padding: 78px;
+    }
+}
+
+@media  screen and (max-width: 420px) {
+    .name{
+        font-size: 30px;
+    }
+}
+
+
+
